@@ -1,0 +1,178 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    background: #001233;
+}
+
+.header {
+    font-size: 5rem;
+    color: #979dac;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 45px;
+    left: 10px;
+
+}
+
+#resim1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    overflow: hidden;
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url(paper.png);
+
+}
+
+#resim2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 100px;
+
+    position: absolute;
+    top: 200px;
+    left: 950px;
+    overflow: hidden;
+    background-position-y: center;
+    background-position-x: center;
+    background-image: url(paper.png);
+}
+
+.skor {
+    width: 350px;
+    height: 250px;
+    background: #002855;
+    position: absolute;
+    left: 525px;
+    top: 180px;
+    border-radius: 25px;
+
+}
+
+#skor1 {
+    position: relative;
+    height: 77px;
+    width: 100px;
+    background-color: #0353a4;
+    top: 75px;
+    left: 20px;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+    padding-top: 23px;
+    border-radius: 15px;
+
+}
+
+#skor2 {
+    border-radius: 15px;
+    position: relative;
+    height: 77px;
+    width: 100px;
+    background-color: #0353a4;
+    top: -25px;
+    left: 230px;
+    font-size: 3rem;
+    justify-content: center;
+    text-align: center;
+    padding-top: 23px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+#start {
+    height: 50px;
+    width: 100px;
+    position: relative;
+    left: 125px;
+    top: -10px;
+    background-color: #5c677d;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+}
+
+
+#ss {
+    font-size: 3rem;
+    color: wheat;
+    position: absolute;
+    top: 500px;
+    left: 540px;
+}
+
+.alert {
+    font-size: 1.5rem;
+    color: #4cc9f0;
+    position: absolute;
+    right: 0;
+
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.p1 {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.p2 {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    left: 230px;
+    top: 30px;
+}
+
+#tas {
+
+    width: 100px;
+    height: 50px;
+    background-color: #5c677d;
+    border: 2px solid white;
+    margin-left: 23px;
+    margin-top: -10px;
+    border-radius: 15px;
+
+}
+
+#kagıt {
+    width: 100px;
+    height: 50px;
+    margin-top: -10px;
+    background-color: #5c677d;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+#makas {
+    width: 100px;
+    height: 50px;
+    margin-top: -10px;
+    background-color: #5c677d;
+    border: 2px solid white;
+    border-radius: 15px;
+}
